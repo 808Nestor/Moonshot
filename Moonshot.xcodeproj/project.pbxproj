@@ -66,18 +66,18 @@
 		6FF1707A260D24F500867140 /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
-				6FF17090260D374800867140 /* Astronaut.swift */,
-				6FF1707B260D24F500867140 /* MoonshotApp.swift */,
-				6FF1707D260D24F500867140 /* ContentView.swift */,
-				6FF1707F260D24FA00867140 /* Assets.xcassets */,
-				6FF17084260D24FA00867140 /* Info.plist */,
 				6FF1708C260D36C300867140 /* astronauts.json */,
 				6FF1708B260D36C300867140 /* missions.json */,
-				6FF17081260D24FA00867140 /* Preview Content */,
+				6FF17084260D24FA00867140 /* Info.plist */,
+				6FF17090260D374800867140 /* Astronaut.swift */,
 				6FF17093260D377300867140 /* AstronautView.swift */,
 				6FF17097260D378F00867140 /* Bundle-Decodable.swift */,
+				6FF1707D260D24F500867140 /* ContentView.swift */,
 				6FF1709A260D37A700867140 /* Mission.swift */,
 				6FF1709D260D37BE00867140 /* MissionView.swift */,
+				6FF1707B260D24F500867140 /* MoonshotApp.swift */,
+				6FF1707F260D24FA00867140 /* Assets.xcassets */,
+				6FF17081260D24FA00867140 /* Preview Content */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
