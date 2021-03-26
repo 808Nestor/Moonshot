@@ -4,8 +4,10 @@
 //
 //  Created by Nestor Trillo on 3/25/21.
 //
+// round #2
 
 import Foundation
+
 
 struct Mission: Codable, Identifiable {
 	struct CrewRole: Codable {
@@ -28,7 +30,7 @@ struct Mission: Codable, Identifiable {
 	
 	var formattedLaunchDate: String {
 		if let launchDate = launchDate {
-			let formatter =  DateFormatter()
+			let formatter = DateFormatter()
 			formatter.dateStyle = .long
 			return formatter.string(from: launchDate)
 		} else {

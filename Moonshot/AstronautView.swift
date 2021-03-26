@@ -4,6 +4,7 @@
 //
 //  Created by Nestor Trillo on 3/25/21.
 //
+// round #2
 
 //	LIBRARIES
 import SwiftUI
@@ -15,7 +16,7 @@ struct AstronautView: View {
 	// BODY
 	var body: some View {
 		GeometryReader { geometry in
-			ScrollView(.vertical) {
+				ScrollView(.vertical) {
 				VStack {
 					Image(self.astronaut.id)
 						.resizable()
@@ -24,13 +25,10 @@ struct AstronautView: View {
 					
 					Text(self.astronaut.description)
 						.padding()
-						.layoutPriority(0)// set to 0 if description get truncated
 				}
 			}
 		}
-		.navigationBarTitle(
-			Text(astronaut.name)
-		)
+		.navigationBarTitle(Text(astronaut.name), displayMode: .inline)
 	}
 	//	FUNCTIONS
 }

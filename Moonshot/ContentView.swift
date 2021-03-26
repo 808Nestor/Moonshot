@@ -5,6 +5,8 @@
 //  Created by Nestor Trillo on 3/25/21.
 //
 
+// round #2
+
 //	LIBRARIES
 import SwiftUI
 
@@ -23,16 +25,14 @@ struct ContentView: View {
 						.scaledToFit()
 						.frame(width: 44, height: 44)
 					
-					VStack(alignment: .leading, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
+					VStack(alignment: .leading) {
 						Text(mission.displayName)
 							.font(.headline)
 						Text(mission.formattedLaunchDate)
-					})
+					}
 				}
 			}
-			.navigationBarTitle(
-				"Moonshot"
-			)
+			.navigationBarTitle("Moonshot")
 		}
 	}
 	//	FUNCTIONS

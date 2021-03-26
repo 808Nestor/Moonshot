@@ -7,6 +7,8 @@
 
 import Foundation
 
+// round #2
+
 struct Astronaut: Codable, Identifiable {
 	let id: String
 	let name: String

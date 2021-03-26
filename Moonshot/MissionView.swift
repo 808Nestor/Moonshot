@@ -5,6 +5,8 @@
 //  Created by Nestor Trillo on 3/25/21.
 //
 
+// round #2
+
 //	LIBRARIES
 import SwiftUI
 
@@ -18,7 +20,7 @@ struct MissionView: View {
 	let mission: Mission
 	let astronauts: [CrewMember]
 	
-	init(mission: Mission, astronauts: [Astronaut]) {
+	init(mission:Mission, astronauts: [Astronaut]) {
 		self.mission = mission
 		
 		var matches = [CrewMember]()
